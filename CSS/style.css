@@ -1,0 +1,58 @@
+p {
+    text-align: center;
+}
+.bigger {
+    width: fit-content;
+    height: auto;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.midBig {
+    width: 100%;
+    padding-left: 10%;
+}
+.big {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 5px;
+}
+
+
+.quarter {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    padding: 2px 5px;
+}
+.btn-line::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bigger:hover {
+    cursor: pointer;
+}
+
+.quarter:hover {
+    cursor: pointer;
+}
+
+.textFooter {
+    font-size: 8px;
+}
+
+
+.container {
+    text-align: center;
+}
