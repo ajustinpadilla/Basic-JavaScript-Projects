@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML 7</title>
+        <link rel="stylesheet" href="./CSS/style2.css">
+        <script src="./JS/Basic_JavaScript_7.js"></script>
+    </head>
+    <body>
+        <button onclick="wrongfunc()">Click here</button>
+        <p id="disVar"></p>
+
+        <div class="bigger">
+            <p class="big" onclick="getDate()">Gretting</p>
+        </div>
+        <p id="before"></p>
+
+        <div class="bigger">
+            <p id="Amount">would you like to buy some items?</p>
+            <div class="imageWrap">
+                <img src="./img/shopKeeper.png" alt="shopkeeper">
+            </div>
+            <p id="Arrows">Arrows in stock: 10</p>
+            <p id="inventory">Inventory: <p id="Gold">150g</p></p>
+            <div class="bigger">
+                <button class="big" onclick="getMore()"">Go out adventuring for money</button>
+            </div>
+            
+            <div class="bigger">
+                <button class="big" onclick="enoughMoney()">Buy Arrows for 15g</button>
+            </div>
+        </div>
+
+        <div class="" id="yourCharacter">
+            <p>Please enter Name and stats: </p>
+            <p>Full Name: <input type="text" id="name" value=""></p>
+            <p id="strength">Strength:<input type="number"id="str" value=""></p>
+            <p id="dexterity">Dexterity:<input type="number" id="dex" value=""></p>
+            <p id="constitution">Constitution:<input type="number" id="con" value=""></p>
+            <p id="intelligence">Intelligence:<input type="number" id="int" value=""></p>
+            <p id="wisdom">Wisdom:<input type="number" id="wis" value=""></p>
+            <p id="luck">luck:<input type="number" id="luc" value=""></p>
+            <button class="big" onclick="makePlayer()">Make this Character</button>
+        </div>
+
+    </body>
+</html>

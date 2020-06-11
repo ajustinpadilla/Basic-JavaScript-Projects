@@ -42,3 +42,20 @@ p {
     width: 100%;
 
 }
+.btnline {
+    padding: 20px 500px;
+    margin:10px
+
+}
+.option {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.wrongValue {
+    color:red;
+    margin: 5px auto;
+}
