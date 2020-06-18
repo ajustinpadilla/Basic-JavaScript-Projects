@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML 10</title>
+        <link rel="stylesheet" href="./CSS/Basic_CSS_2.css">
+        <script src="./JS/Basic_JavaScript_10.js" defer></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div id="healthBar">
+                <div id="currentHealth"></div>
+                <div id="missingHealth"></div>
+            </div>
+            <div class="bigger">
+                <button class="big" onclick="healPotion(25,100)">Raise  your health</button>        
+            </div>
+        </div>
+
+        <div id="Fight" class="container">
+            <div class="" id="yourCharacter">
+                <p>Please enter Name and stats: </p>
+                <p>Full Name: <input type="text" id="name" value=""></p>
+                <p id="strength">Strength:<input type="number"id="str" value="0"></p>
+                <p id="dexterity">Dexterity:<input type="number" id="dex" value="0"></p>
+                <p id="constitution">Constitution:<input type="number" id="con" value="0"></p>
+                <p id="intelligence">Intelligence:<input type="number" id="int" value="0"></p>
+                <p id="wisdom">Wisdom:<input type="number" id="wis" value="0"></p>
+                <p id="luck">luck:<input type="number" id="luc" value="0"></p>
+                <div class="bigger">
+                    <button class="big" onclick="makePlayer()">Make this Character</button>
+                    <button class="big" onclick="randomStats()">Random Stats</button>
+                </div>
+            </div>
+            <p id="Inventory"></p>
+            <div class="bigger">
+                <button onclick="Battle()" class="big">Battle</button>
+            </div>
+        </div>
+
+
+    </body>
+</html>
